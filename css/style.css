@@ -125,7 +125,6 @@ body{
 .about__container{
     align-items: center;
     width: 1160px;
-    height: 247px;
 }
 .about__title{
     color: #000;
@@ -169,27 +168,107 @@ body{
 }
 .fourth__whole{
     padding-top: 88px;
+    padding-bottom: 96px;
     
 }
 .second__whole{
     padding-top: 88px;
 }
 .choose{
-    background-color: #F2F2F2;
+    
 }
 .choose__container{
-    align-items: center;
+    background-color: #F2F2F2;
+    width: 1440px;
     height: 416px;
+    align-items: center;
 }
 .choose__title{
     color: #000;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-align: center;
+    padding-top: 62px;
 }
 .choose__img{
     display: flex;
-    
+    gap: 50px;
+    padding-top: 60px;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    justify-content: space-between;
+}
+.choose__text{
+    display: flex;
+    gap: 50px;
+}
+
+.choose {
+    padding-bottom: 15px;
+    padding-top: 13px;
+}
+
+.choose-list {
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.choose-link {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    width: 323px;
+    text-decoration: none;
+    padding-right: 56px;
+    padding-left: 73px;
+}
+.category__container{
+    width: 1328px;
+    align-items: center;
+
+}
+.img{
+    display: flex;
+    gap: 28px;
+}
+.category__title{
+    padding-top: 85px;
+    padding-bottom: 28px;
+    color: #000;
+    text-align: center;
+    font-family: Lenora Premium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    text-transform: capitalize;
+}
+.text{
+    display: flex;
+    gap: 28px;
+}
+.category__text{
+    padding-top: 30px;
+    width: 417.904px;
+    height: 32.91px;
+    color: #000;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
 }
